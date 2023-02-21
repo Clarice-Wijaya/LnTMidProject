@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway';
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 150px;
+    background-color: #00154f;
+}
+
+nav a{
+    text-decoration: none;
+    color: #f4af1b;
+    font-weight: bold;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+
+.nav-left img{
+    width: 40%;
+}
+
+.nav-right{
+    display: flex;
+    gap: 20px;
+}
+
+.home-content{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{padding: 40px;}
+.addhomebutton{
+    color: #f4af1b;
+    font-weight: bold;
+    font-size: 30px;
+    border-style: none;
+    padding: 20px 40px;
+    margin: 100px;
+    border-radius: 20px;
+    background-color: #00154f;
+}
+.desc{
+    margin: 40px;
+}
+
+.list-employee{
+    margin: 20px 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.list-employee .data-employee {
+    -webkit-box-shadow: 0 0 35px 0 rgba(130, 130, 130, 0.2);
+            box-shadow: 0 0 35px 0 rgba(130, 130, 130, 0.2);
+    border-radius: 10px;
+    padding: 20px 35px;
+    width: 30%;
+}
+  
+ul {
+    margin: 10px 0px;
+    list-style: none; 
+    display: flex;
+    flex-direction: column;
+}
+  
+.data-employee ul li {
+    font-size: 15px;
+}
+
+h6{
+    display: flex;
+    justify-content: end;
+    opacity: 0.5;
+}
+.but{display: flex;justify-content: center;margin: 50px;}
+.addbutton{
+    color: #f4af1b;
+    font-weight: bold;
+    font-size: 20px;
+    border-style: none;
+    padding: 15px 30px;
+    border-radius: 20px;
+    background-color: #00154f;
+}
+
+.space{margin: 100px;}
+h1{
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+    font-size: 40px;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
